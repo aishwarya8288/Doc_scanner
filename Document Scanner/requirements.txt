@@ -1,0 +1,39 @@
+# Core Computer Vision
+opencv-python==4.8.1.78
+opencv-contrib-python==4.8.1.78
+
+# Numerical Computing
+numpy==1.24.3
+
+# Image Processing
+Pillow==10.1.0
+
+# Scientific Computing & Visualization
+matplotlib==3.7.2
+scipy==1.11.3
+
+# Optional but Recommended
+scikit-image==0.21.0  # Advanced image processing
+imutils==0.5.4        # Convenience functions for OpenCV
+
+# For Deep Learning Enhancement (Optional)
+# Uncomment if you plan to use ML models for document detection
+# tensorflow==2.13.0
+# torch==2.0.1
+# torchvision==0.15.2
+# onnxruntime==1.16.0
+
+# For API Deployment (Optional)
+# Uncomment if deploying as web service
+# fastapi==0.103.2
+# uvicorn==0.23.2
+# python-multipart==0.0.6
+# aiofiles==23.2.1
+
+# For Testing
+pytest==7.4.2
+pytest-cov==4.1.0
+
+# Utilities
+tqdm==4.66.1          # Progress bars
+python-dotenv==1.0.0  # Environment variables
